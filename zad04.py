@@ -4,4 +4,4 @@ usernumber = float(input('Введите число: ')) # Строка ввод
 
 roundednumber = round(usernumber, 1) # Округляем число до одного символа после запятой
 roundedstring = str(roundednumber) # Преобразуем float в string
-print(roundedstring[-1]) # Вывод последнего числа
+print(roundedstring) # Вывод последнего числа

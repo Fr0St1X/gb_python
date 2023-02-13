@@ -6,11 +6,11 @@ third_un = int(input('Введите третье число: ')) # Строка
 fourth_un = int(input('Введите четвёртое число: ')) # Строка ввода четвёртого числа с текстом для пользователя
 fifth_un = int(input('Введите пятое число: ')) # Строка ввода пятого числа с текстом для пользователя
 
-list = [first_un, second_un, third_un, fourth_un, fifth_un]
+list = [first_un, second_un, third_un, fourth_un, fifth_un] # Список чисел
 max = 0
 
-for i in list:
-    if i > max:
+for number in list: 
+    if number > max:
         max = i
 
 print(f'Самое большое число: {max}!')
