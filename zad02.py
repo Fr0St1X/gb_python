@@ -11,6 +11,6 @@ max = 0
 
 for number in list: 
     if number > max:
-        max = i
+        max = number
 
 print(f'Самое большое число: {max}!')
