@@ -2,17 +2,6 @@
 
 usertext = int(input('Введите требуемую четверть системы координат: ')) # Строка ввода числа с текстом для пользователя
 
-# if userX > 0 and userY > 0:
-#     print('I четверть')
-# if userX < 0 and userY > 0:
-#     print('II четверть')
-# if userX < 0 and userY < 0:
-#     print('III четверть')
-# if userX > 0 and userY < 0:
-#     print('IV четверть')
-# if userX == 0 and userY == 0:
-#     print('в начале координат')
-
 if usertext == 1:
     print('X и Y должены быть больше нуля.')
     quit()
