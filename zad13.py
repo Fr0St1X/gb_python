@@ -16,12 +16,11 @@ uss = uss.lower()
 
 # Преобразование строк в списки
 ufs_list = ufs.split()
-print(ufs_list)
 uss_list = uss.split()
 
-samewords = 0 # Переменная одинаковых символов
-for chars in ufs_list: # Для символов в первой строке
-    if chars in uss_list: # Сравнить с символами во второй строке
-        samewords += 1 # Счетчик одинаковых символов, и передача их количества (через + 1) в переменную samewords
+samewords = 0 # Переменная одинаковых слов
+for words in ufs_list: # Слова в первой строке
+    if words in uss_list: # Сравнить со словами во второй строке
+        samewords += 1 # Счетчик одинаковых слов, и передача их количества (через + 1) в переменную samewords
 
 print(f'Количество вхождений {samewords}') #Вывод
